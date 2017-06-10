@@ -71,14 +71,15 @@ body{
   width: 160px;
   height: 80px;
   border-radius: 80px / 40px;
-  background: #64c2de
+  background: #64c2de;
+  top: 10px;
 }
 .head::before {
   position: absolute;
   top: 0px;
   left: 15px;
   display: block;
-    border-right: 15px solid transparent;
+  border-right: 15px solid transparent;
   border-bottom: 15px solid #64c2de; 
   border-left: 15px solid transparent;
   content: ''; 
